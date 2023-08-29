@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field {
+    border: 1px solid white;
+    background-image:
+            linear-gradient(
+                    rgba(255, 255, 255, 0.25),
+                    rgba(255, 255, 255, 0.25)),
+            url("https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/2c484d7772c44ac.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.score {
+    background: linear-gradient(180deg, #CCFFFF, #FFCCCC);
+    border: 2px solid;
+    border-color: #CCFFFF #f1d5d5 #fddbdb #e8dbdb;
+    position: absolute;
+    top: 10px;
+    margin: 0 auto;
+}
